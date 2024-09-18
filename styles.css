@@ -85,8 +85,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link:hover {
-  color: #ffd700; /* Dorado al pasar el mouse para mantener la coherencia */
+  color: #7ef837; /* Dorado al pasar el mouse para mantener la coherencia */
 }
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.auth-button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-button {
+  background-color: transparent;
+  color: var(--blanco);
+  border: 1px solid var(--blanco);
+}
+
+.login-button:hover {
+  background-color: var(--blanco);
+  color: var(--azul-oscuro);
+}
+
+.register-button {
+  background-color: var(--dorado);
+  color: var(--azul-oscuro);
+}
+
+.register-button:hover {
+  background-color: #35dbe0;
+}
+
 
 
 /* Secciones */
